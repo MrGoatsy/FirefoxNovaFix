@@ -1,3 +1,5 @@
+@charset "UTF-8";
+
 @-moz-document url-prefix("about:"), url-prefix("chrome:") {
     :root {
         --border-radius-xsmall: 0px !important;
@@ -28,7 +30,16 @@
         --button-background-color-active: color-mix(in srgb, currentColor 21%, transparent) !important;
         --button-text-color: light-dark(#15141a, #fbfbfe) !important;
         --button-text-color-primary: light-dark(#ffffff, #15141a) !important;
+        --button-border: transparent;
 
         --panel-background-color: light-dark(#ffffff, rgb(66, 65, 77)) !important;
+    }
+
+    button {
+        border-color: transparent !important;
+    }
+
+    button:not(:focus-visible) {
+        outline: none !important;
     }
 }
