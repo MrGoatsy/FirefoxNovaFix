@@ -1,7 +1,5 @@
 The files go into the `chrome` folder, go to `about:profiles` open the root directory, if there is no `chrome` folder, create one.
 
-Paste the 2 files there and restart the browser.
-
 This also works for Floorp and Librewolf.
 
 Legacy design:
