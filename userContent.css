@@ -1,0 +1,34 @@
+@-moz-document url-prefix("about:"), url-prefix("chrome:") {
+    :root {
+        --border-radius-xsmall: 0px !important;
+        --border-radius-small: 0px !important;
+        --border-radius-medium: 0px !important;
+        --border-radius-large: 0px !important;
+        --border-radius-xlarge: 0px !important;
+        --border-radius-xxlarge: 0px !important;
+
+        --button-border-radius: 0px !important;
+        --card-border-radius: 0px !important;
+        --checkbox-border-radius: 0px !important;
+        --input-text-border-radius: 0px !important;
+        --panel-border-radius: 0px !important;
+        --panel-menuitem-border-radius: 0px !important;
+
+        --color-accent-primary: light-dark(oklch(55% 0.24 260), oklch(76% 0.14 205)) !important;
+        --color-accent-primary-hover: light-dark(oklch(48% 0.2 260), oklch(83% 0.11 205)) !important;
+        --color-accent-primary-active: light-dark(oklch(41% 0.17 260), oklch(90% 0.07 205)) !important;
+        --focus-outline-color: light-dark(oklch(55% 0.24 260), oklch(76% 0.14 205)) !important;
+        --text-color: light-dark(#15141a, #fbfbfe) !important;
+
+        --background-color-box: light-dark(#ffffff, #23222b) !important;
+        --background-color-canvas: light-dark(#ffffff, #1c1b22) !important;
+
+        --button-background-color: color-mix(in srgb, currentColor 7%, transparent) !important;
+        --button-background-color-hover: color-mix(in srgb, currentColor 14%, transparent) !important;
+        --button-background-color-active: color-mix(in srgb, currentColor 21%, transparent) !important;
+        --button-text-color: light-dark(#15141a, #fbfbfe) !important;
+        --button-text-color-primary: light-dark(#ffffff, #15141a) !important;
+
+        --panel-background-color: light-dark(#ffffff, rgb(66, 65, 77)) !important;
+    }
+}

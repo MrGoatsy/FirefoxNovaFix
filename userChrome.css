@@ -1,0 +1,159 @@
+:root {
+  --toolbarbutton-border-radius: 0px !important;
+  --tab-border-radius: 0px !important;
+  --panel-border-radius: 0px !important;
+  --panel-menuitem-border-radius: 0px !important;
+
+  --border-radius-xsmall: 0px !important;
+  --border-radius-small: 0px !important;
+  --border-radius-medium: 0px !important;
+  --border-radius-large: 0px !important;
+  --border-radius-xlarge: 0px !important;
+  --border-radius-xxlarge: 0px !important;
+
+  --button-border-radius: 0px !important;
+  --card-border-radius: 0px !important;
+  --checkbox-border-radius: 0px !important;
+  --input-text-border-radius: 0px !important;
+  --menuitem-border-radius: 0px !important;
+
+  --urlbar-border-radius: 0px !important;
+  --urlbar-inner-border-radius: 0px !important;
+  --urlbarview-border-radius: 0px !important;
+  --urlbar-selection-border-radius: 0px !important;
+
+  --toolbox-background-gradient: none !important;
+
+  --chrome-content-separator-color: transparent !important;
+
+  --color-accent-primary: light-dark(oklch(55% 0.24 260), oklch(76% 0.14 205)) !important;
+  --color-accent-primary-hover: light-dark(oklch(48% 0.2 260), oklch(83% 0.11 205)) !important;
+  --color-accent-primary-active: light-dark(oklch(41% 0.17 260), oklch(90% 0.07 205)) !important;
+  --focus-outline-color: light-dark(oklch(55% 0.24 260), oklch(76% 0.14 205)) !important;
+  --text-color: light-dark(#15141a, #fbfbfe) !important;
+
+  --background-color-box: light-dark(#ffffff, #23222b) !important;
+  --background-color-canvas: light-dark(#ffffff, #1c1b22) !important;
+
+  --button-background-color: color-mix(in srgb, currentColor 7%, transparent) !important;
+  --button-background-color-hover: color-mix(in srgb, currentColor 14%, transparent) !important;
+  --button-background-color-active: color-mix(in srgb, currentColor 21%, transparent) !important;
+  --button-text-color: light-dark(#15141a, #fbfbfe) !important;
+  --button-text-color-primary: light-dark(#ffffff, #15141a) !important;
+
+  --toolbox-background-color: light-dark(rgb(234, 234, 237), #1c1b22) !important;
+  --toolbox-background-color-inactive: light-dark(rgb(235, 235, 239), rgb(31, 30, 37)) !important;
+  --toolbox-text-color: light-dark(#15141a, #fbfbfe) !important;
+  --toolbox-text-color-inactive: light-dark(#15141a, #fbfbfe) !important;
+
+  --toolbar-background-color: light-dark(#f9f9fb, rgb(43, 42, 51)) !important;
+  --toolbar-text-color: light-dark(#15141a, #fbfbfe) !important;
+
+  --toolbar-field-background-color: light-dark(rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.3)) !important;
+  --toolbar-field-background-color-focus: light-dark(#ffffff, rgb(66, 65, 77)) !important;
+  --toolbar-field-border-color: transparent !important;
+  --toolbar-field-border-color-focus: color-mix(in srgb, var(--focus-outline-color) 50%, transparent) !important;
+  --toolbar-field-text-color: light-dark(#15141a, #fbfbfe) !important;
+  --toolbar-field-text-color-focus: light-dark(#000000, #fbfbfe) !important;
+
+  --panel-background-color: light-dark(#ffffff, rgb(66, 65, 77)) !important;
+
+  --toolbarbutton-background-color-hover: color-mix(in srgb, currentColor 17%, transparent) !important;
+  --toolbarbutton-background-color-active: color-mix(in srgb, currentColor 30%, transparent) !important;
+  --toolbarbutton-icon-fill: light-dark(#5b5b66, #fbfbfe) !important;
+  --toolbarbutton-icon-fill-attention: light-dark(oklch(55% 0.24 260), oklch(76% 0.14 205)) !important;
+
+  --tab-background-color-hover: color-mix(in srgb, currentColor 11%, transparent) !important;
+  --tab-background-color-selected: light-dark(#ffffff, rgba(106, 106, 120, 0.7)) !important;
+  --tab-selected-textcolor: light-dark(rgb(21, 20, 26), #ffffff) !important;
+  --tab-border-color-selected-leading: transparent !important;
+  --tab-border-color-selected-trailing: transparent !important;
+}
+
+:root,
+#sidebar-container {
+  --chrome-window-gap: 0px !important;
+  --chrome-block-radius: 0px !important;
+}
+
+:root[uidensity="compact"] {
+  --tab-min-height: 29px !important;
+  --tab-margin-block: 0px !important;
+  --tab-inline-padding: 8px !important;
+  --tab-group-label-size: 24px !important;
+  --urlbar-height: max(26px, 1.4em) !important;
+}
+
+.urlbar-background {
+  border-radius: 0 !important;
+}
+
+#alltabs-button {
+  display: none !important;
+}
+
+.tab-icon-overlay {
+  border: none !important;
+  background-color: transparent !important;
+  fill: #cccbd0 !important;
+}
+
+.tab-icon-overlay[soundplaying],
+.tab-icon-overlay[muted] {
+  fill: #cccbd0 !important;
+}
+
+.tab-audio-button {
+  order: -1;
+}
+
+.urlbarView-row .urlbarView-url {
+  color: #0bcae9 !important;
+}
+
+.tabbrowser-tab,
+.tabbrowser-tab[selected="true"],
+.tab-background,
+.tab-background[selected="true"] {
+  border-radius: 0 !important;
+}
+
+.tabbrowser-tab {
+  appearance: none !important;
+}
+
+#urlbar-input::selection,
+.urlbar-input::selection,
+.searchbar-textbox::selection,
+#urlbar-input:not(:focus)::selection,
+.urlbar-input:not(:focus)::selection,
+.searchbar-textbox:not(:focus-within)::selection {
+  background-color: #2e7183 !important;
+  color: #ffffff !important;
+}
+
+#navigator-toolbox {
+  margin: 0 !important;
+  border: none !important;
+  border-radius: 0 !important;
+}
+
+#browser {
+  padding: 0 !important;
+  gap: 0 !important;
+  border-radius: 0 !important;
+}
+
+.chrome-block,
+#tabbrowser-tabpanels> :not(.split-view-panel) .browserContainer {
+  border: none !important;
+  border-radius: 0 !important;
+}
+
+#tabbrowser-tabbox {
+  border-radius: 0 !important;
+}
+
+#nav-bar {
+  border-top: none !important;
+}
