@@ -8,4 +8,4 @@ Legacy design:
 <img width="2559" height="1386" alt="image" src="https://github.com/user-attachments/assets/9078feda-b3da-4383-aef8-ad3ac9c85fd8" />
 
 Nova design:
-<img width="2559" height="1381" alt="image" src="https://github.com/user-attachments/assets/ed6cbfb9-13e2-40cd-852f-7ec382119c6a" />
+<img width="2559" height="1384" alt="image" src="https://github.com/user-attachments/assets/367aaba6-0276-4142-aadd-0a6ee8ae4bdf" />
