@@ -306,6 +306,18 @@
   color: #0bcae9 !important;
 }
 
+.urlbarView-row:not([type="bookmark"], [type="switchtab"], [type="remotetab"], [type="tag"]) .urlbarView-type-icon {
+  display: none !important;
+}
+
+.urlbarView-row[type*="history"] .urlbarView-favicon {
+  mask: none !important;
+}
+
+.urlbarView-row[type*="history"] .urlbarView-type-icon {
+  display: none !important;
+}
+
 .tabbrowser-tab,
 .tabbrowser-tab[selected="true"],
 .tab-background,
