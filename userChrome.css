@@ -317,6 +317,11 @@
   appearance: none !important;
 }
 
+.tabbrowser-tab[usercontextid]:not([selected], [multiselected]) .tab-background {
+  outline: 1px solid var(--identity-stroke-color, var(--identity-tab-color)) !important;
+  outline-offset: -1px !important;
+}
+
 #urlbar-input::selection,
 .urlbar-input::selection,
 .searchbar-textbox::selection,
