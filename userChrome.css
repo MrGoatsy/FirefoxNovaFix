@@ -318,6 +318,10 @@
   display: none !important;
 }
 
+.urlbarView-row[selected] {
+  background-color: light-dark(rgba(0, 0, 0, 0.08), rgba(255, 255, 255, 0.1)) !important;
+}
+
 .tabbrowser-tab,
 .tabbrowser-tab[selected="true"],
 .tab-background,
