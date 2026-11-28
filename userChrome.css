@@ -318,7 +318,8 @@
   display: none !important;
 }
 
-.urlbarView-row[selected] {
+.urlbarView-row[selected],
+.urlbarView-row[row-selectable]:not([selected]):hover {
   background-color: light-dark(rgba(0, 0, 0, 0.08), rgba(255, 255, 255, 0.1)) !important;
 }
 
